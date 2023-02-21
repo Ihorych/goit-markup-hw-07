@@ -63,7 +63,6 @@
         0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 
-    
     @media screen and (max-width: 768px){
         .conteiner{
             width: 428px;
@@ -107,7 +106,7 @@
         .section{
             padding-top: 96px;
             padding-bottom: 96px;}
-       }
+    }
     @media screen and (min-width:1200px){
         .section{
             padding-top: 120px;
@@ -134,7 +133,6 @@
             flex-direction: column;
             gap: 4px;}
     }
-
 
     .link-nav.activ::after{
         content: '';
@@ -169,8 +167,7 @@
 
     @media screen and (min-width:768px) and (max-width:1200px){
         .header-link{
-            margin-left: 120px;
-        }
+            margin-left: 120px;}
     }
   
     nav{
@@ -380,8 +377,7 @@
             padding-top: 72px;
             padding-left: 24px;
             padding-right: 24px;
-            padding-bottom: 24px;
-        }
+            padding-bottom: 24px;}
     }
     .modal-button{
         position: absolute;
@@ -558,8 +554,7 @@
             margin-left:auto;
             margin-right:auto;
             width: 264px;
-            margin-bottom: 72px;
-        }
+            margin-bottom: 72px;}
     }
 
     .taem-block > h3{
@@ -614,8 +609,7 @@
 
     @media screen and (max-width:1200px){
         .section-title-what{
-            display: none;
-        }
+            display: none;}
     } 
 
     @media screen and (min-width:1200px){
@@ -657,8 +651,7 @@
     @media screen and (max-width:768px){
         .section-text{
             width: 100%;
-            margin-bottom: 32px;
-        }
+            margin-bottom: 32px;}
     }
     .section-text{
         line-height: 1.5;
@@ -710,8 +703,7 @@
 
     @media screen and (max-width: 768px){
         .costumer-order{
-            flex-basis: calc((100% - 16px) / 2);
-        }
+            flex-basis: calc((100% - 16px) / 2);}
     }
 
      @media screen and (min-width:768px){
@@ -844,26 +836,21 @@
         .benefits-list{
             display: flex;
             flex-wrap: nowrap;
-            gap: 24px;
-        }
+            gap: 24px;}
     }
 
     @media screen and (min-width:768px) and (max-width:1200px){
         .benefits-point{
             max-width: 356px;}
-
         .benefits-point:not(:nth-child(n+3)){
-            margin-bottom: 72px;
-        }
+            margin-bottom: 72px;}
         .benefits-point:not(:nth-child(2n)){
-            margin-right: 24px;
-        }
+            margin-right: 24px;}
     }
     
     @media screen and (min-width:1200px){
         .benefits-point{
-            width: 264px;
-        }
+            width: 264px;}
     }
     
     @media screen and (min-width:1200px){
@@ -880,8 +867,7 @@
 
     @media screen and (max-width:1200px){
         .benefits-icon{
-            display: none;
-        }
+            display: none;}
     }
 
     @media screen and (max-width:768px) {
@@ -924,15 +910,11 @@
             width: 50%;
             flex-basis: calc((100% - 48px) / 2);}
     }
-
     @media screen and (min-width:1200px){
         .portfolio-item{
             width: 33%;
             flex-basis: calc((100% - 48px) / 3);}
     } 
-
-
-
 
     .portfolio-item:hover{
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
