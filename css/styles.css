@@ -75,14 +75,16 @@
     @media screen and (min-width:768px){
         .conteiner{
             width: 768px;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto;
+            margin-right: auto; */
             padding: 0 16px;}
     }
 
     @media screen and (min-width:1200px){
     .conteiner{
         width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0 15px;}
     }       
 
@@ -1043,7 +1045,7 @@
 
     @media screen and (min-width:1200px) {
         .footer-conteiner{
-            margin-left: 156px;} 
+            justify-content: center;} 
     }
 
 
