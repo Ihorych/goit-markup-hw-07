@@ -243,6 +243,22 @@
     .burger{
         fill: var(--section-colour);
     }
+
+    .banner{
+        background-image: linear-gradient(
+                to top,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+                url("../images/bcg_pctr/Dark-bg480_1x.jpg");
+                background-repeat: no-repeat;
+                margin-left: auto;
+                margin-right: auto;
+    }
+
+    @media screen and (min-resolution: 2ddx){
+        .banner{
+            background-image: url("../images/bcg_pctr/Dark-bg480_2x.png");}  
+    }
     
     @media screen and (max-width: 768px){
         .banner{
@@ -251,15 +267,7 @@
             max-width: 428px;
             text-align: center;
             padding-top: 112px;
-            padding-bottom: 112px;
-            background-image: linear-gradient(
-                to top,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-                url(../images/bcg_pctr/people_office_1x.jpg);
-                background-repeat: no-repeat;
-                margin-left: auto;
-                margin-right: auto;} 
+            padding-bottom: 112px;} 
     }
 
     @media screen and (min-width:768px){
@@ -271,21 +279,34 @@
             padding-top: 112px;
             padding-bottom: 108px;
             min-width: 768px;
+
             background-image: linear-gradient(
                 to top,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-                url(../images/bcg_pctr/people_office_1x.jpg);
-                background-repeat: no-repeat;
-                margin-left: auto;
-                margin-right: auto;}
+                url("../images/bcg_pctr/Dark-bg768_1x.jpg");}
+    }
+
+    @media screen and (min-resolution: 2ddx){
+        .banner{
+            background-image: url("../images/bcg_pctr/Dark-bg768_2x.jpg");}  
     }
 
     @media screen and (min-width:1200px){
     .banner{
         padding-top: 188px;
         padding-bottom: 188px;
-        max-width: 1440px;}
+        max-width: 1440px;
+        background-image: linear-gradient(
+            to top,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url("../images/bcg_pctr/people-office\ 11128_1x.jpg");}
+    }
+
+    @media screen and (min-resolution: 2ddx){
+        .banner{
+            background-image: url("../images/bcg_pctr/people-office\ 11128_2x.jpg");}  
     }
 
     
@@ -1298,8 +1319,9 @@
         background-color: var(--white-base);
         z-index: 999;
       
-        transform: translateX(100%);
+        transform: translateX(150%);
         transition: transform 250ms ease-in-out;
+        opacity: 0;
       }
 
       .menu-toggle:hover .menu-icon{
@@ -1308,6 +1330,7 @@
       
       .menu-container.is-open {
         transform: translateX(0);
+        opacity: 1;
       }
       
       .menu-container .menu-toggle {
